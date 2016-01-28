@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+input{
+	color: black;
+}
+.form-control{
+		width: 40%;
+
+}
+label{
+	 color:#FF00FF;
+}
+
+.btn{
+	background-color: #FF00FF;
+	color: black;
+	border: 5px solid white;
+}
+
+#create-item-btn{
+	background-color: #FF00FF;
+	color: black;
+	border: 5px solid white;
+}
+
+a {
+  color: #4dfcff;
+}
+
+.quantity-col, .quantity-title {
+	position:relative;
+	text-align: center;
+}
+
+.image-col, .image-title {
+	position:relative;
+	text-align: left;
+}
+
+.row-total-price {
+	position:absolute;
+	right: 17%;
+}

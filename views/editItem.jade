@@ -1,0 +1,41 @@
+extends layout
+
+block content
+ h1 Edit Shopping
+ form(role='form')
+      .form-group
+        label(for='email') Name:
+        input#name.form-control(type='text', value='#{name}')
+      .form-group
+        label(for='pwd') Description:
+        input#description.form-control(type='text', value='#{description}')
+      .form-group
+        label(for='pwd') Price:
+        input#price.form-control(type='text', value='#{price}')
+      .form-group
+        label(for='pwd') Quantity:
+        input#quantity.form-control(type='text', value='#{quantity}')
+      .form-group
+        button.btn.btn-primary.save-button(type='button') Save 
+        br
+        a(href = '/') Return Home
+
+
+
+
+ img#image(src='#{image}')
+ #itemId(data-itemid='#{itemId}')
+
+
+ script(src='../javascripts/editItem.js')
+
+
+
+
+
+
+
+
+
+ 
+

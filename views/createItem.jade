@@ -1,0 +1,32 @@
+extends layout
+
+block content
+  h1 Create a Shopping Item
+  br
+  form(role='form')
+      .form-group
+        label(for='email') Name:
+        input#input-name.form-control(type='text', placeholder='HKS 272')
+      .form-group
+        label(for='pwd') Description:
+        input#input-description.form-control(type='text', placeholder='272 intake cams')
+      .form-group
+        label(for='email') Image URL:
+        input#input-image.form-control(type='text', placeholder='URL')
+      .form-group
+        label(for='pwd') Price:
+        input#input-price.form-control(type='text', placeholder='$1.00')
+      .form-group
+        label(for='pwd') Quantity:
+        input#input-quantity.form-control(type='text', placeholder='Quantity')
+      .form-group
+        input#create-item-btn(type='submit', value='Create')
+
+
+  script(src='javascripts/createItem.js')
+
+
+
+
+  
+
